@@ -1,1 +1,53 @@
+LISTA DE COMANDOS DO GIT:
 
+1. Commit
+git commit
+
+2. Branch
+git branch bugFix
+git checkout bugFix
+git checkout -b bugFix
+
+3. Merge
+git merge bugFix
+
+4. Rebase
+git rebase main
+git rebase -i HEAD~3
+
+5. Navegação
+git checkout C1
+git checkout HEAD~1
+git checkout HEAD~2
+git checkout HEAD^
+
+6. Reset e Revert
+git reset HEAD~1
+git revert HEAD
+
+7. Cherry Pick
+git cherry-pick C2
+
+8. Tags
+git tag v1
+git checkout v1
+
+9. Remoto
+git remote add origin <url>
+git fetch
+git push
+git pull
+
+10. Remote Tracking
+git branch -r
+
+11. Push com upstream
+git push -u origin main
+
+12. Rebase remoto
+git fetch
+git rebase origin/main
+
+13. Merge remoto
+git fetch
+git merge origin/main
