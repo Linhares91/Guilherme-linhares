@@ -1,1 +1,8 @@
-oi
+github.codespaces
+github.github-vscode-theme
+github.vscode-pull-request-github
+ms-ceintl.vscode-language-pack-pt-br
+pkief.material-icon-theme
+ritwickdey.liveserver
+usernamehw.errorlens
+xabikos.javascriptsnippets
